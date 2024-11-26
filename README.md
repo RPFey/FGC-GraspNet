@@ -59,6 +59,9 @@ cd graspnetAPI
 pip install .
 ```
 
+---
+
+Log fix bugs for THC Legacy.
 
 ## Training and Testing
 Training:

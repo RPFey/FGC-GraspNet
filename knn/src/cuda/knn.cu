@@ -9,6 +9,7 @@
 
 // Includes
 #include <cstdio>
+#include <c10/cuda/CUDAStream.h>
 #include "cuda.h"
 
 #define IDX2D(i, j, dj) (dj * i + j)

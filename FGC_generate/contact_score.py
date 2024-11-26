@@ -79,7 +79,7 @@ class Contact_decision():
 
         vec1 = point1-point2
         vec2 = point1-point3
-        dis = abs(torch.linalg.norm(torch.cross(vec1, vec2)))/abs(torch.linalg.norm(vec1))
+        dis = abs(torch.linalg.norm(torch.linalg.cross(vec1, vec2)))/abs(torch.linalg.norm(vec1))
         dis13_left = torch.linalg.norm(point1-point3)
         dis23_right = torch.linalg.norm(point2-point3)
         if dis13_left <= dis23_right:
